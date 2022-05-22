@@ -1,0 +1,17 @@
+{
+  "name": "Pomerium auth checker",
+  "description": "Check info regarding youre pomerium sessions",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": ["storage", "activeTab", "scripting", "cookies"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
