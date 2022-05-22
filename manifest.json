@@ -1,7 +1,7 @@
 {
   "name": "Pomerium auth checker",
   "description": "Check info regarding youre pomerium sessions",
-  "version": "1.0",
+  "version": "0.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "js/background.js"
