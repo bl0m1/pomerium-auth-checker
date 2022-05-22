@@ -1,1 +1,1 @@
-# pomerium-auth-checker-
+# pomerium-auth-checker
