@@ -9,7 +9,10 @@
   "host_permissions": [
     "<all_urls>"
   ],
-  "permissions": ["storage", "activeTab", "scripting", "cookies"],
+  "permissions": [
+    "storage",
+    "cookies"
+  ],
   "action": {
     "default_popup": "popup.html"
   },
